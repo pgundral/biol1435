@@ -1,0 +1,70 @@
+code-server (1.91.1, biol1435.jupyter.brown.edu, server-distro)
+Jupyter Extension Version: 2024.6.0.
+Python Extension Version: 2024.14.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Workspace folder /home/jovyan, Home = /home/jovyan
+00:27:21.692 [info] Starting Kernel (Python Path: /opt/conda/envs/biol1435/bin/python, Conda, 3.9.21) for '~/ps1-updated.ipynb' (disableUI=true)
+00:27:21.713 [info] Launching Raw Kernel R # R
+00:27:26.722 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -m pip list
+00:27:26.730 [info] Process Execution: /R --slave -e IRkernel::main() --args /home/~/.local/share/jupyter/runtime/kernel-v2-261JGsdxLaZYETm.json
+    > cwd: //home/~
+00:27:27.843 [info] Kernel successfully started
+00:27:27.843 [warn] No nbextensions folder found for kernel .jvsc74a57bd010b86e1103f9a0fd8ee3cd45ef2b1d7b16cdb9481ac91ab738092195a64400f3#ir./opt/conda/envs/biol1435/python./.r#--slave#-e#irkernel::main()#--args#{connection_file}
+00:27:27.907 [warn] Cell completed with errors [Qd [Error]: Error in parse(text = x, srcfile = src): <text>:2:8: unexpected symbol
+1: # Import modules.
+2: import h5py
+          ^
+
+	at n.execute (/home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'ERROR',
+  evalue: 'Error in parse(text = x, srcfile = src): <text>:2:8: unexpected symbol\n' +
+    '1: # Import modules.\n' +
+    '2: import h5py\n' +
+    '          ^\n',
+  traceback: [
+    'Error in parse(text = x, srcfile = src): <text>:2:8: unexpected symbol\n' +
+      '1: # Import modules.\n' +
+      '2: import h5py\n' +
+      '          ^\n' +
+      'Traceback:\n'
+  ]
+}
+00:28:08.122 [info] Disposing kernel .jvsc74a57bd010b86e1103f9a0fd8ee3cd45ef2b1d7b16cdb9481ac91ab738092195a64400f3#ir./opt/conda/envs/biol1435/python./.r#--slave#-e#irkernel::main()#--args#{connection_file} for notebook ~/ps1-updated.ipynb due to selection of another kernel or closing of the notebook
+00:28:08.123 [info] Dispose Kernel '~/ps1-updated.ipynb' associated with '~/ps1-updated.ipynb'
+00:28:08.181 [info] Starting Kernel (Python Path: /opt/conda/envs/biol1435/bin/python, Conda, 3.9.21) for '~/ps1-updated.ipynb' (disableUI=true)
+00:28:08.191 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+00:28:08.210 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-261FHeJZC776TAg.json
+    > cwd: //home/~
+00:28:09.004 [info] Kernel successfully started
+00:28:09.012 [info] Process Execution: /opt/conda/envs/biol1435/bin/python /home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/pythonFiles/printJupyterDataDir.py
+00:30:50.041 [info] Starting Kernel (Python Path: /opt/conda/envs/biol1435/bin/python, Conda, 3.9.21) for '~/in class/diversity_and_variation.ipynb' (disableUI=false)
+00:30:50.060 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+00:30:50.079 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-261OHM9nSW7A0wo.json
+    > cwd: //home/~/in class
+00:30:50.826 [info] Kernel successfully started
+00:54:51.466 [info] Too many pending requests 1 for kernel 8df5d373-a270-4518-9cad-337c91dffc4d, waiting for it to be ready.
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+01:22:35.183 [info] Disposing request as the cell (-1) was deleted ~/ps1-updated.ipynb
+02:04:34.333 [info] Dispose Kernel '~/ps1-updated.ipynb' associated with '~/ps1-updated.ipynb'
+02:04:34.334 [info] Dispose Kernel '~/ps1-updated.ipynb' associated with '~/ps1-updated.ipynb'
+02:04:34.344 [info] Dispose Kernel '~/in class/diversity_and_variation.ipynb' associated with '~/in class/diversity_and_variation.ipynb'
+02:04:34.377 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-261OHM9nSW7A0wo.json for pid 2799 [Canceled (FileSystemError): Canceled
+	at P.e (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:7234)
+	at Object.stat (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:3900)
+	at async Wc.delete (/home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}
+02:04:34.382 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-261FHeJZC776TAg.json for pid 2349 [Canceled (FileSystemError): Canceled
+	at P.e (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:7234)
+	at Object.stat (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:3900)
+	at async Wc.delete (/home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

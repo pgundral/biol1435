@@ -1,0 +1,13 @@
+{
+  "shell_port": 41877,
+  "iopub_port": 38087,
+  "stdin_port": 39111,
+  "control_port": 39031,
+  "hb_port": 46825,
+  "ip": "127.0.0.1",
+  "key": "73f01878-1501f0e57cd5a3ae528d08a4",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/lost+found/problem_set_1_PRANAV_GUNDRALA.ipynb"
+}

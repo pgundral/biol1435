@@ -1,0 +1,96 @@
+2025-02-11 03:42:27.156 [info] Log level: Info
+2025-02-11 03:42:27.156 [info] Validating found git in: "git"
+2025-02-11 03:42:27.156 [info] Using git "2.34.1" from "git"
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-11 03:42:27.156 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-11 03:42:27.156 [info] Open repository: /home/jovyan/learn-python3
+2025-02-11 03:42:27.156 [info] > git config --get commit.template [5ms]
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:27.156 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:27.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-11 03:42:27.156 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-11 03:42:27.156 [warning] ENOENT: no such file or directory, open '/home/jovyan/learn-python3/.git/refs/remotes/origin/master'
+2025-02-11 03:42:27.156 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-11 03:42:27.156 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-02-11 03:42:27.156 [info] Open repository: /home/jovyan/python-class
+2025-02-11 03:42:27.161 [info] > git config --get commit.template [6ms]
+2025-02-11 03:42:27.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-11 03:42:27.166 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/refs/remotes/origin/master'
+2025-02-11 03:42:27.195 [info] > git rev-parse refs/remotes/origin/master [29ms]
+2025-02-11 03:42:27.223 [info] > git status -z -uall [82ms]
+2025-02-11 03:42:27.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-02-11 03:42:27.246 [info] > git config --get commit.template [6ms]
+2025-02-11 03:42:27.247 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2025-02-11 03:42:27.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2025-02-11 03:42:27.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-11 03:42:27.263 [warning] ENOENT: no such file or directory, open '/home/jovyan/learn-python3/.git/refs/remotes/origin/master'
+2025-02-11 03:42:28.253 [info] > git status -z -uall [1054ms]
+2025-02-11 03:42:28.254 [info] > git check-ignore -v -z --stdin [11ms]
+2025-02-11 03:42:28.254 [info] > git check-ignore -v -z --stdin [8ms]
+2025-02-11 03:42:28.255 [info] > git rev-parse refs/remotes/origin/master [992ms]
+2025-02-11 03:42:28.267 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1008ms]
+2025-02-11 03:42:28.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-02-11 03:42:28.283 [info] > git config --get commit.template [7ms]
+2025-02-11 03:42:28.283 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [12ms]
+2025-02-11 03:42:28.292 [info] > git config --local branch.master.vscode-merge-base [10ms]
+2025-02-11 03:42:28.325 [info] > git diff --name-status -z --diff-filter=ADMR 85e30d370ec20618ac27b802c4d35876d7031b67...refs/remotes/origin/master [38ms]
+2025-02-11 03:42:28.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-11 03:42:28.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [32ms]
+2025-02-11 03:42:28.336 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/refs/remotes/origin/master'
+2025-02-11 03:42:28.337 [info] > git status -z -uall [79ms]
+2025-02-11 03:42:28.345 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2025-02-11 03:42:28.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2025-02-11 03:42:28.368 [info] > git rev-parse refs/remotes/origin/master [32ms]
+2025-02-11 03:42:28.373 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2025-02-11 03:42:28.376 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [27ms]
+2025-02-11 03:42:28.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2025-02-11 03:42:28.382 [info] > git diff --name-status -z --diff-filter=ADMR 762dd9a012030dd2e9e795d570e1746c8a8b4944...refs/remotes/origin/master [2ms]
+2025-02-11 03:42:28.472 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:28.472 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:28.485 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:28.485 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:28.534 [info] > git rev-parse --show-toplevel [19ms]
+2025-02-11 03:42:28.534 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-11 03:42:28.601 [info] > git status -z -uall [230ms]
+2025-02-11 03:42:28.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2025-02-11 03:42:28.645 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2025-02-11 03:42:28.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2025-02-11 03:42:28.987 [info] > git check-ignore -v -z --stdin [53ms]
+2025-02-11 03:42:28.988 [info] > git check-ignore -v -z --stdin [49ms]
+2025-02-11 03:42:29.982 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-11 03:42:29.982 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

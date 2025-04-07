@@ -1,0 +1,334 @@
+[2025-02-11T00:26:10.606Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-02-11T00:26:10.608Z] info  Using user-data-dir /home/jovyan/.local/share/code-server
+[2025-02-11T00:26:10.628Z] info  Using config file /home/jovyan/.config/code-server/config.yaml
+[2025-02-11T00:26:10.628Z] info  HTTP server listening on http://127.0.0.1:55281/
+[2025-02-11T00:26:10.628Z] info    - Authentication is disabled
+[2025-02-11T00:26:10.628Z] info    - Not serving HTTPS
+[2025-02-11T00:26:10.628Z] info  Session server listening on /home/jovyan/.local/share/code-server/code-server-ipc.sock
+[00:26:11] 
+
+
+
+
+[00:26:11] Extension host agent started.
+[00:26:11] Started initializing default profile extensions in extensions installation folder. file:///home/jovyan/.local/share/code-server/extensions
+[00:26:11] Completed initializing default profile extensions in extensions installation folder. file:///home/jovyan/.local/share/code-server/extensions
+[00:26:13] [127.0.0.1][a86dd903][ManagementConnection] New connection established.
+[00:26:14] [127.0.0.1][9e21c531][ExtensionHostConnection] New connection established.
+[00:26:14] [127.0.0.1][9e21c531][ExtensionHostConnection] <261> Launched Extension Host Process.
+[00:27:04] Getting Manifest... ms-toolsai.jupyter
+[00:27:04] Getting Manifest... ms-python.python
+[00:27:05] Installing extension: ms-python.python {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:05] Installing extension: ms-toolsai.jupyter {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:05] Getting Manifest... ms-python.debugpy
+[00:27:05] Installing extension: ms-python.debugpy {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true, dependecyOrPackExtensionInstall: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:05] Getting Manifest... ms-toolsai.jupyter-renderers
+[00:27:06] Getting Manifest... ms-toolsai.jupyter-keymap
+[00:27:06] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+[00:27:06] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+[00:27:06] Installing extension: ms-toolsai.jupyter-renderers {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true, dependecyOrPackExtensionInstall: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:06] Installing extension: ms-toolsai.jupyter-keymap {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true, dependecyOrPackExtensionInstall: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:06] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true, dependecyOrPackExtensionInstall: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:06] Installing extension: ms-toolsai.vscode-jupyter-slideshow {
+  installPreReleaseVersion: false,
+  context: { skipWalkthrough: true, dependecyOrPackExtensionInstall: true },
+  pinned: false,
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: p {
+    scheme: 'file',
+    authority: '',
+    path: '/home/jovyan/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/jovyan/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/jovyan/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.91.1', date: '2024-07-15T18:41:47.410Z' }
+}
+[00:27:07] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+[00:27:07] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+[00:27:07] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+[00:27:07] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+[00:27:07] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+[00:27:07] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+[00:27:08] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+[00:27:08] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+[00:27:09] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal: ms-toolsai.jupyter-renderers
+[00:27:09] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal
+[00:27:10] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-python.python-2024.14.1-universal: ms-python.python
+[00:27:10] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-python.python-2024.14.1-universal
+[00:27:10] Extension installed successfully: ms-python.debugpy file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:27:10] Extension installed successfully: ms-python.python file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:27:12] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal: ms-toolsai.jupyter
+[00:27:12] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal
+[00:27:12] Extension installed successfully: ms-toolsai.jupyter-keymap file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:27:12] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:27:12] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:27:12] Extension installed successfully: ms-toolsai.jupyter-renderers file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:27:12] Extension installed successfully: ms-toolsai.jupyter file:///home/jovyan/.local/share/code-server/extensions/extensions.json
+[00:31:50] [127.0.0.1][9e21c531][ExtensionHostConnection] The client has reconnected.
+[00:31:50] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[00:33:23] [127.0.0.1][9e21c531][ExtensionHostConnection] The client has reconnected.
+[00:33:23] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[00:34:07] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[00:34:07] [127.0.0.1][9e21c531][ExtensionHostConnection] The client has reconnected.
+[00:49:15] [127.0.0.1][9e21c531][ExtensionHostConnection] The client has reconnected.
+[00:49:15] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[01:24:23] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[01:24:24] [127.0.0.1][9e21c531][ExtensionHostConnection] The client has reconnected.
+[01:24:41] [127.0.0.1][9e21c531][ExtensionHostConnection] The client has reconnected.
+[01:24:41] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[01:54:52] [127.0.0.1][a86dd903][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[01:59:34] [127.0.0.1][a86dd903][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[01:59:34] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[02:04:34] [127.0.0.1][9e21c531][ExtensionHostConnection] <261> Extension Host Process exited with code: 0, signal: null.
+[02:16:34] [127.0.0.1][a86dd903][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[02:16:57] [127.0.0.1][a86dd903][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[02:16:57] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[02:34:39] [127.0.0.1][a86dd903][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[02:49:19] [127.0.0.1][a86dd903][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[02:49:19] [127.0.0.1][a86dd903][ManagementConnection] The client has reconnected.
+[03:35:49] [127.0.0.1][a86dd903][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:42:24] [127.0.0.1][4afcfe84][ManagementConnection] New connection established.
+[03:42:25] [127.0.0.1][877b8ebe][ExtensionHostConnection] New connection established.
+[03:42:25] [127.0.0.1][877b8ebe][ExtensionHostConnection] <14137> Launched Extension Host Process.
+[03:57:09] [127.0.0.1][4afcfe84][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[05:34:59] [127.0.0.1][4afcfe84][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[05:34:59] [127.0.0.1][238957fa][ManagementConnection] New connection established.
+[05:35:00] [127.0.0.1][62df3f24][ExtensionHostConnection] New connection established.
+[05:35:00] [127.0.0.1][62df3f24][ExtensionHostConnection] <26019> Launched Extension Host Process.
+[05:39:59] [127.0.0.1][4afcfe84][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[05:39:59] [127.0.0.1][877b8ebe][ExtensionHostConnection] <14137> Extension Host Process exited with code: 0, signal: null.
+[06:01:58] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[06:01:58] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[06:33:34] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[06:33:34] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[06:36:52] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[06:37:19] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[06:37:19] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[06:37:19] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[06:38:18] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[06:38:18] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[06:55:19] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:05:56] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:05:56] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[08:05:58] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[08:22:32] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[08:22:58] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:55:19] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:55:19] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[08:55:22] [127.0.0.1][62df3f24][ExtensionHostConnection] The client has reconnected.
+[09:17:06] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:05:47] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[10:05:47] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[10:10:48] [127.0.0.1][62df3f24][ExtensionHostConnection] <26019> Extension Host Process exited with code: 0, signal: null.
+[10:22:50] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:40:06] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[10:40:07] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[10:40:07] [127.0.0.1][cbbeffd3][ExtensionHostConnection] New connection established.
+[10:40:07] [127.0.0.1][cbbeffd3][ExtensionHostConnection] <54494> Launched Extension Host Process.
+[10:57:03] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:57:33] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[10:57:33] [127.0.0.1][cbbeffd3][ExtensionHostConnection] The client has reconnected.
+[10:57:33] [127.0.0.1][238957fa][ManagementConnection] The client has reconnected.
+[11:14:31] [127.0.0.1][238957fa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[11:46:30] [127.0.0.1][238957fa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[11:46:30] [127.0.0.1][cbbeffd3][ExtensionHostConnection] The client has reconnected.
+[11:51:30] [127.0.0.1][238957fa][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[12:03:07] [127.0.0.1][cbbeffd3][ExtensionHostConnection] The client has reconnected.
+[13:14:30] [127.0.0.1][cbbeffd3][ExtensionHostConnection] The client has reconnected.
+[14:07:32] [127.0.0.1][cbbeffd3][ExtensionHostConnection] <54494> Extension Host Process exited with code: 0, signal: null.
+[2025-02-12T01:03:33.299Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-02-12T01:03:33.302Z] info  Using user-data-dir /home/jovyan/.local/share/code-server
+[2025-02-12T01:03:33.326Z] info  Using config file /home/jovyan/.config/code-server/config.yaml
+[2025-02-12T01:03:33.326Z] info  HTTP server listening on http://127.0.0.1:39107/
+[2025-02-12T01:03:33.326Z] info    - Authentication is disabled
+[2025-02-12T01:03:33.326Z] info    - Not serving HTTPS
+[2025-02-12T01:03:33.326Z] info  Session server listening on /home/jovyan/.local/share/code-server/code-server-ipc.sock
+[01:03:33] 
+
+
+
+
+[01:03:33] Extension host agent started.
+[01:08:52] [127.0.0.1][58cbb648][ManagementConnection] New connection established.
+[01:11:22] [127.0.0.1][089de7c0][ExtensionHostConnection] New connection established.
+[01:11:22] [127.0.0.1][089de7c0][ExtensionHostConnection] <174> Launched Extension Host Process.
+[01:39:57] [127.0.0.1][58cbb648][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:39:57] [127.0.0.1][089de7c0][ExtensionHostConnection] <174> Extension Host Process exited with code: 0, signal: null.
+[2025-03-05T01:31:04.148Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-03-05T01:31:04.151Z] info  Using user-data-dir /home/jovyan/.local/share/code-server
+[2025-03-05T01:31:04.171Z] info  Using config file /home/jovyan/.config/code-server/config.yaml
+[2025-03-05T01:31:04.171Z] info  HTTP server listening on http://127.0.0.1:58075/
+[2025-03-05T01:31:04.171Z] info    - Authentication is disabled
+[2025-03-05T01:31:04.171Z] info    - Not serving HTTPS
+[2025-03-05T01:31:04.171Z] info  Session server listening on /home/jovyan/.local/share/code-server/code-server-ipc.sock
+[01:31:04] 
+
+
+
+
+[01:31:04] Extension host agent started.
+[2025-04-05T22:58:39.873Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-04-05T22:58:39.876Z] info  Using user-data-dir /home/jovyan/.local/share/code-server
+[2025-04-05T22:58:39.895Z] info  Using config file /home/jovyan/.config/code-server/config.yaml
+[2025-04-05T22:58:39.895Z] info  HTTP server listening on http://127.0.0.1:36353/
+[2025-04-05T22:58:39.895Z] info    - Authentication is disabled
+[2025-04-05T22:58:39.895Z] info    - Not serving HTTPS
+[2025-04-05T22:58:39.895Z] info  Session server listening on /home/jovyan/.local/share/code-server/code-server-ipc.sock
+[22:58:40] 
+
+
+
+
+[22:58:40] Extension host agent started.
+[22:58:42] [127.0.0.1][63505369][ManagementConnection] New connection established.
+[22:58:43] [127.0.0.1][c6956fc7][ExtensionHostConnection] New connection established.
+[22:58:43] [127.0.0.1][c6956fc7][ExtensionHostConnection] <4703> Launched Extension Host Process.
+[23:08:52] [127.0.0.1][c6956fc7][ExtensionHostConnection] The client has reconnected.
+[23:08:52] [127.0.0.1][63505369][ManagementConnection] The client has reconnected.
+[23:12:49] [127.0.0.1][c6956fc7][ExtensionHostConnection] The client has reconnected.
+[23:50:06] [127.0.0.1][c6956fc7][ExtensionHostConnection] The client has reconnected.
+[23:50:06] [127.0.0.1][63505369][ManagementConnection] The client has reconnected.
+[00:24:27] [127.0.0.1][63505369][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[00:41:15] [127.0.0.1][63505369][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[00:41:15] [127.0.0.1][63505369][ManagementConnection] The client has reconnected.
+[00:41:15] [127.0.0.1][c6956fc7][ExtensionHostConnection] The client has reconnected.
+[00:48:14] [127.0.0.1][c6956fc7][ExtensionHostConnection] The client has reconnected.
+[00:48:14] [127.0.0.1][63505369][ManagementConnection] The client has reconnected.
+[01:05:59] [127.0.0.1][63505369][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[01:09:55] [127.0.0.1][63505369][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[01:09:55] [127.0.0.1][63505369][ManagementConnection] The client has reconnected.
+[01:09:55] [127.0.0.1][c6956fc7][ExtensionHostConnection] The client has reconnected.
+[01:11:55] [127.0.0.1][63505369][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:11:55] [127.0.0.1][c6956fc7][ExtensionHostConnection] <4703> Extension Host Process exited with code: 0, signal: null.
+[2025-04-07T19:54:16.451Z] info  code-server 4.91.1 1962f48b7f71772dc2c060dbaa5a6b4c0792a549
+[2025-04-07T19:54:16.453Z] info  Using user-data-dir /home/jovyan/.local/share/code-server
+[2025-04-07T19:54:16.473Z] info  Using config file /home/jovyan/.config/code-server/config.yaml
+[2025-04-07T19:54:16.473Z] info  HTTP server listening on http://127.0.0.1:33345/
+[2025-04-07T19:54:16.473Z] info    - Authentication is disabled
+[2025-04-07T19:54:16.473Z] info    - Not serving HTTPS
+[2025-04-07T19:54:16.473Z] info  Session server listening on /home/jovyan/.local/share/code-server/code-server-ipc.sock
+[19:54:17] 
+
+
+
+
+[19:54:17] Extension host agent started.
+[19:54:27] [127.0.0.1][2af7db52][ManagementConnection] New connection established.
+[19:54:36] [127.0.0.1][4089c333][ExtensionHostConnection] New connection established.
+[19:54:36] [127.0.0.1][4089c333][ExtensionHostConnection] <593> Launched Extension Host Process.
+[20:01:05] [127.0.0.1][2af7db52][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:01:05] [127.0.0.1][4089c333][ExtensionHostConnection] <593> Extension Host Process exited with code: 0, signal: null.
+[20:03:28] [127.0.0.1][ffab65f2][ManagementConnection] New connection established.
+[20:03:37] [127.0.0.1][4cd222f1][ExtensionHostConnection] New connection established.
+[20:03:37] [127.0.0.1][4cd222f1][ExtensionHostConnection] <2136> Launched Extension Host Process.
+[20:10:25] [127.0.0.1][ffab65f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:10:25] [127.0.0.1][4cd222f1][ExtensionHostConnection] <2136> Extension Host Process exited with code: 0, signal: null.
+[20:15:29] [127.0.0.1][5e555a4a][ManagementConnection] New connection established.
+[20:15:38] [127.0.0.1][5d1b72d6][ExtensionHostConnection] New connection established.
+[20:15:38] [127.0.0.1][5d1b72d6][ExtensionHostConnection] <2827> Launched Extension Host Process.

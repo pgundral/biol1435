@@ -1,0 +1,1579 @@
+2025-04-05 22:58:44.166 [info] Extension host with pid 4703 started
+2025-04-05 22:58:44.176 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-2ef76b8/vscode.lock': Lock acquired.
+2025-04-05 22:58:44.265 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-04-05 22:58:44.318 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-05 22:58:44.425 [info] Eager extensions activated
+2025-04-05 22:58:44.426 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 22:58:44.427 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-05 22:58:46.153 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-04-05 22:58:46.520 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3957
+2025-04-05 22:58:47.049 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-05 22:58:47.150 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3958
+2025-04-05 22:58:48.026 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:58:48.039 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-05 22:58:48.166 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:58:48.206 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:58:48.774 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:58:48.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3959
+2025-04-05 22:58:49.998 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:58:51.034 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-05 22:58:51.035 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-05 22:58:51.036 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-05 22:58:54.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3961
+2025-04-05 22:58:55.103 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:58:59.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3961
+2025-04-05 22:59:00.201 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:01.719 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-04-05 22:59:02.637 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-05 22:59:02.637 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-05 22:59:02.637 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-05 22:59:03.205 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-04-05 22:59:03.245 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-04-05 22:59:03.708 [error] Error: spawn /home/jovyan/.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-05 22:59:03.867 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-05 22:59:04.319 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3967
+2025-04-05 22:59:05.343 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:09.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:10.444 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:14.538 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:15.545 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:19.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:20.646 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:24.737 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:25.750 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:29.839 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:30.846 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:34.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:35.949 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:40.040 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:41.047 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:45.135 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:46.145 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:50.231 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:51.237 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 22:59:55.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 22:59:56.337 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:00.426 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:01.433 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:05.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:06.542 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:10.628 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:11.635 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:15.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:16.738 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:20.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:21.835 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:25.928 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:26.939 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:31.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:32.033 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:36.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:37.137 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:41.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:42.231 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:46.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:47.345 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:51.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:52.452 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:00:56.543 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:00:57.550 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:01.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:02.655 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:06.743 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:07.751 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:11.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:12.858 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:16.943 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:17.951 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:22.046 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:23.055 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:27.142 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:28.149 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:32.242 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:33.252 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:37.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:38.349 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:42.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:43.450 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:47.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:48.542 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:52.634 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:53.644 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:01:57.730 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:01:58.736 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:02.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:03.841 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:07.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:08.939 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:13.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:14.040 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:18.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:19.134 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:23.226 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:24.235 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:28.322 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:29.329 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:33.422 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:34.431 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:38.517 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:39.524 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:43.629 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:44.638 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:48.733 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:49.743 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:53.832 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:54.839 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:02:58.931 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:02:59.943 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:01.775 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-05 23:03:04.035 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:05.042 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:09.135 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:10.141 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:14.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:15.239 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:19.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:20.339 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:24.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:24.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:25.316 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:25.799 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:29.891 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:30.897 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:34.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3969
+2025-04-05 23:03:35.998 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:40.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:03:41.100 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:45.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:03:46.199 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:50.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:03:51.300 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:03:55.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:03:56.400 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:00.489 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:01.496 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:05.592 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:06.602 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:10.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:11.700 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:15.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:16.798 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:20.888 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:21.895 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:25.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:26.997 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:31.088 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:32.095 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:36.201 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:37.210 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:41.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:42.315 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:46.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:47.414 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:51.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:52.518 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:04:56.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:04:57.614 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:01.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:02.715 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:06.803 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:07.809 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:11.900 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:12.911 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:17.001 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:18.008 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:22.104 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:23.113 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:27.201 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:28.208 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:32.299 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:33.310 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:37.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:38.405 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:42.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:43.507 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:47.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:48.601 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:52.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:53.703 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:05:57.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:05:58.796 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:02.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:03.899 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:07.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:08.996 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:13.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:14.096 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:18.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:19.189 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:23.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:24.289 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:28.377 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:29.384 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:33.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:34.490 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:38.581 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:39.587 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:43.679 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:44.689 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:48.783 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:49.789 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:53.883 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:54.894 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:06:58.981 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:06:59.988 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:04.082 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:05.092 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:09.179 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:10.185 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:14.279 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:15.293 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:19.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:20.388 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:24.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:25.490 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:29.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:30.587 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:34.679 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:35.690 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:39.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:40.782 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:44.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:45.884 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:49.971 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:50.978 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:07:55.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:07:56.079 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:00.167 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:01.174 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:05.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:06.277 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:10.362 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:11.369 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:15.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:16.478 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:20.565 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:21.572 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:25.669 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:26.679 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:30.770 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:31.778 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:35.869 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:36.881 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:40.968 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:41.975 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:46.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:47.076 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:08:51.163 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:08:52.171 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-05 23:12:29.042 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-05 23:12:30.052 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-06 01:11:52.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3970
+2025-04-06 01:11:53.973 [error] Error: No such branch: master.
+	at F.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:940157)
+2025-04-06 01:11:55.322 [info] Extension host terminating: received terminate message from renderer
+2025-04-06 01:11:55.324 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-2ef76b8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-06 01:11:55.403 [error] Canceled: Canceled
+	at Object.h [as $9] (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2375
+	at Array.forEach (<anonymous>)
+	at E.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2313)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8894)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.404 [error] Canceled: Canceled
+	at Object.h [as $9] (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2375
+	at Array.forEach (<anonymous>)
+	at E.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2313)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8894)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.404 [error] Canceled: Canceled
+	at Object.h [as $9] (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2375
+	at Array.forEach (<anonymous>)
+	at E.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2313)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8894)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.404 [error] Canceled: Canceled
+	at Object.h [as $9] (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2375
+	at Array.forEach (<anonymous>)
+	at E.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2313)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8894)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.404 [error] Canceled: Canceled
+	at Object.h [as $9] (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2375
+	at Array.forEach (<anonymous>)
+	at E.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:2313)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8894)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.405 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at n.O [as value] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:949496)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.405 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at n.O [as value] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:949496)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.405 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:322969)
+	at /opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:323928
+	at n.value (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1055238)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.405 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at n.O [as value] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:949496)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.405 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:322969)
+	at /opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:323928
+	at n.value (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1055238)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.405 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at n.O [as value] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:949496)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.406 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:322969)
+	at /opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:323928
+	at n.value (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1055238)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8609)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14518)
+	at d.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17634)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17008)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at m.acceptChunk (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12264)
+	at n.value (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11534)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:957)
+	at o.z (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21428) setContext undefined
+2025-04-06 01:11:55.452 [info] Extension host with pid 4703 exiting with code 0

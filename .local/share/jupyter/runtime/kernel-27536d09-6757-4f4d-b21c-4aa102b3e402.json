@@ -1,0 +1,13 @@
+{
+  "shell_port": 49997,
+  "iopub_port": 35783,
+  "stdin_port": 48215,
+  "control_port": 57431,
+  "hb_port": 53183,
+  "ip": "127.0.0.1",
+  "key": "3804ecef-fa93d47546b220150d94e82c",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/ps1-updated.ipynb"
+}

@@ -1,0 +1,13 @@
+{
+  "shell_port": 44953,
+  "iopub_port": 43745,
+  "stdin_port": 34793,
+  "control_port": 36251,
+  "hb_port": 47425,
+  "ip": "127.0.0.1",
+  "key": "55c11377-df3f72eaa92a9c50f3ee4aa1",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/in class/natural_selection.ipynb"
+}

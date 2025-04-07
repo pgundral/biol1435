@@ -1,0 +1,281 @@
+2025-04-07 20:15:39.479 [info] Log level: Info
+2025-04-07 20:15:39.480 [info] Validating found git in: "git"
+2025-04-07 20:15:39.480 [info] Using git "2.34.1" from "git"
+2025-04-07 20:15:39.480 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:15:39.480 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.487 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:15:39.487 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.493 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:15:39.493 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.499 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:15:39.499 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.505 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:15:39.505 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.510 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:15:39.510 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.515 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:15:39.515 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.521 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:15:39.521 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.527 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:15:39.532 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-04-07 20:15:39.545 [info] Open repository: /home/jovyan/biol1435
+2025-04-07 20:15:39.555 [info] > git config --get commit.template [4ms]
+2025-04-07 20:15:39.556 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-07 20:15:39.556 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2025-04-07 20:15:39.605 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-07 20:15:39.608 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:15:39.610 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:15:39.622 [info] > git status -z -uall [6ms]
+2025-04-07 20:15:39.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-04-07 20:15:39.642 [info] > git rev-parse --show-toplevel [21ms]
+2025-04-07 20:15:39.644 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:15:39.644 [warning] git config failed: Failed to execute git
+2025-04-07 20:15:39.648 [info] > git config --get commit.template [11ms]
+2025-04-07 20:15:39.655 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2025-04-07 20:15:39.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-07 20:15:39.660 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-07 20:15:39.660 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:15:39.663 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:15:39.664 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2025-04-07 20:15:39.671 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-04-07 20:15:39.675 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-07 20:15:39.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-04-07 20:15:39.684 [info] > git status -z -uall [10ms]
+2025-04-07 20:15:39.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-07 20:15:39.694 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-04-07 20:15:39.698 [info] Open repository: /home/jovyan/python-class
+2025-04-07 20:15:39.703 [info] > git config --local branch.main.vscode-merge-base origin/main [24ms]
+2025-04-07 20:15:39.712 [info] > git config --local branch.main.vscode-merge-base [17ms]
+2025-04-07 20:15:39.717 [info] > git config --get commit.template [5ms]
+2025-04-07 20:15:39.717 [info] > git config --get commit.template [10ms]
+2025-04-07 20:15:39.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-04-07 20:15:39.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-04-07 20:15:39.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-04-07 20:15:39.731 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/refs/remotes/origin/master'
+2025-04-07 20:15:39.734 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:15:39.735 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-04-07 20:15:39.739 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-04-07 20:15:39.742 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2025-04-07 20:15:39.746 [info] > git status -z -uall [4ms]
+2025-04-07 20:15:39.751 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [12ms]
+2025-04-07 20:15:39.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-04-07 20:15:39.763 [info] > git diff --name-status -z --diff-filter=ADMR 85b2a5a97aec4b846a8ab74b40dd80f895fc9def...refs/remotes/origin/main [6ms]
+2025-04-07 20:15:39.764 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:15:39.770 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:15:39.912 [info] > git status -z -uall [167ms]
+2025-04-07 20:15:39.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-04-07 20:15:39.929 [info] > git config --get commit.template [5ms]
+2025-04-07 20:15:39.933 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2025-04-07 20:15:39.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-04-07 20:15:39.940 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/refs/remotes/origin/master'
+2025-04-07 20:15:39.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2025-04-07 20:15:39.944 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-04-07 20:15:39.949 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-04-07 20:15:39.954 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [2ms]
+2025-04-07 20:15:39.960 [info] > git diff --name-status -z --diff-filter=ADMR 762dd9a012030dd2e9e795d570e1746c8a8b4944...refs/remotes/origin/master [2ms]
+2025-04-07 20:15:40.095 [info] > git status -z -uall [148ms]
+2025-04-07 20:15:40.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-07 20:15:40.107 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-04-07 20:15:40.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2025-04-07 20:15:40.306 [info] > git check-ignore -v -z --stdin [5ms]
+2025-04-07 20:15:40.307 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-07 20:22:49.005 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-07 20:22:49.005 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:49.013 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-07 20:22:49.013 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:49.021 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:22:49.022 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:50.854 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:22:50.854 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:50.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:22:50.860 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:50.865 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:22:50.865 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:50.871 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:22:50.871 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:22:50.878 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:22:50.878 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:23:07.666 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:23:07.666 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:23:08.331 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:23:12.860 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-07 20:23:15.501 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-07 20:23:17.195 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:23:17.890 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-07 20:23:18.478 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:23:19.105 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:23:25.660 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:23:34.794 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:23:38.346 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:24:07.917 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/HEAD'
+2025-04-07 20:24:07.925 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/config'
+2025-04-07 20:24:07.941 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/HEAD'
+2025-04-07 20:24:07.949 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/config'
+2025-04-07 20:24:07.964 [info] > git config --get commit.template [26ms]
+2025-04-07 20:24:07.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:24:07.975 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:24:07.977 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:24:08.018 [info] > git status -z -uall [36ms]
+2025-04-07 20:24:08.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2025-04-07 20:24:08.127 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2025-04-07 20:24:08.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-04-07 20:24:08.883 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-07 20:24:10.736 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:24:13.130 [info] > git config --get commit.template [7ms]
+2025-04-07 20:24:13.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:24:13.138 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:24:13.140 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:24:13.178 [info] > git status -z -uall [33ms]
+2025-04-07 20:24:13.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2025-04-07 20:24:13.255 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:24:13.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-04-07 20:24:43.522 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-07 20:24:45.474 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:25:04.921 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-04-07 20:25:04.928 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2025-04-07 20:25:05.286 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:25:05.821 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:25:12.321 [info] > git add -A -- . [1234ms]
+2025-04-07 20:25:12.321 [info] warning: CRLF will be replaced by LF in .local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/node_modules/@aminya/node-gyp-build/LICENSE.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in .local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/node_modules/@aminya/node-gyp-build/README.md.
+The file will have its original line endings in your working directory
+error: 'in class/' does not have a commit checked out
+fatal: adding files failed
+2025-04-07 20:25:12.334 [info] > git config --get commit.template [6ms]
+2025-04-07 20:25:12.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:25:12.341 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:25:12.342 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-07 20:25:12.385 [info] > git status -z -uall [38ms]
+2025-04-07 20:25:12.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2025-04-07 20:25:12.483 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:25:12.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:25:49.668 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-07 20:25:50.106 [info] > git config --get commit.template [5ms]
+2025-04-07 20:25:50.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:25:50.111 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:25:50.113 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:25:50.153 [info] > git status -z -uall [34ms]
+2025-04-07 20:25:50.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [52ms]
+2025-04-07 20:25:50.238 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-04-07 20:25:50.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:26:00.528 [info] > git config --get commit.template [6ms]
+2025-04-07 20:26:00.530 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-07 20:26:00.535 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:26:00.536 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-07 20:26:00.578 [info] > git status -z -uall [36ms]
+2025-04-07 20:26:00.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2025-04-07 20:26:00.675 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2025-04-07 20:26:00.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:26:07.691 [warning] Failed to get repository realpath for: "/home/jovyan/in class/". Error: ENOENT: no such file or directory, realpath '/home/jovyan/in class/'
+2025-04-07 20:26:08.205 [info] > git config --get commit.template [7ms]
+2025-04-07 20:26:08.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-07 20:26:08.212 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:26:08.214 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:26:08.251 [info] > git status -z -uall [33ms]
+2025-04-07 20:26:08.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2025-04-07 20:26:08.335 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:26:08.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:26:13.649 [info] > git config --get commit.template [5ms]
+2025-04-07 20:26:13.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:26:13.656 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:26:13.657 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:26:13.928 [info] > git status -z -uall [266ms]
+2025-04-07 20:26:14.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2025-04-07 20:26:14.010 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-04-07 20:26:14.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:26:32.566 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-07 20:26:38.253 [info] > git config --get commit.template [7ms]
+2025-04-07 20:26:38.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-07 20:26:38.261 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:26:38.262 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-07 20:26:38.474 [info] > git status -z -uall [206ms]
+2025-04-07 20:26:38.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+2025-04-07 20:26:38.588 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:26:38.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-04-07 20:26:44.400 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-07 20:26:49.472 [info] > git config --get commit.template [5ms]
+2025-04-07 20:26:49.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:26:49.477 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:26:49.479 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:26:49.520 [info] > git status -z -uall [37ms]
+2025-04-07 20:26:49.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2025-04-07 20:26:49.599 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-04-07 20:26:49.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-04-07 20:26:54.995 [info] > git config --get commit.template [6ms]
+2025-04-07 20:26:54.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-07 20:26:55.000 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:26:55.002 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-07 20:26:55.042 [info] > git status -z -uall [36ms]
+2025-04-07 20:26:55.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2025-04-07 20:26:55.115 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-04-07 20:26:55.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:27:00.120 [info] > git config --get commit.template [5ms]
+2025-04-07 20:27:00.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-07 20:27:00.129 [warning] ENOENT: no such file or directory, open '/home/jovyan/biol1435/.git/refs/remotes/origin/main'
+2025-04-07 20:27:00.131 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-07 20:27:00.171 [info] > git status -z -uall [36ms]
+2025-04-07 20:27:00.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2025-04-07 20:27:00.244 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-04-07 20:27:00.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-07 20:27:23.552 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:27:35.009 [info] > git rev-parse --show-toplevel [1ms]

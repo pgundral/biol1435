@@ -1,0 +1,13 @@
+{
+  "shell_port": 58397,
+  "iopub_port": 38381,
+  "stdin_port": 40573,
+  "control_port": 56147,
+  "hb_port": 56843,
+  "ip": "127.0.0.1",
+  "key": "c94c4962-6354be1cd524a7bef56d5f6f",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/in class/diversity_and_variation.ipynb"
+}

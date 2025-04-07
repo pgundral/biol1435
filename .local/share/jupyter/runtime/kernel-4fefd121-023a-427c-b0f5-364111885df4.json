@@ -1,0 +1,13 @@
+{
+  "shell_port": 43173,
+  "iopub_port": 52259,
+  "stdin_port": 40207,
+  "control_port": 44217,
+  "hb_port": 35585,
+  "ip": "127.0.0.1",
+  "key": "f1e976dd-586baa1a67f4afc7a5793035",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/in class/intro_to_msprime.ipynb"
+}

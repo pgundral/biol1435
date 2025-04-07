@@ -1,0 +1,177 @@
+2025-02-11 00:26:16.538 [info] Extension host with pid 261 started
+2025-02-11 00:26:16.562 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-2ef76b8/vscode.lock': Lock acquired.
+2025-02-11 00:26:16.609 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-02-11 00:26:16.655 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-11 00:26:16.760 [info] Eager extensions activated
+2025-02-11 00:26:16.761 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-11 00:26:16.762 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-11 00:26:19.799 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-02-11 00:26:20.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-11 00:26:20.466 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-11 00:26:55.293 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-02-11 00:27:10.618 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-02-11 00:27:11.193 [error] Error: spawn /home/jovyan/.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-11 00:27:11.294 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-11 00:27:12.285 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-11 00:27:12.285 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-11 00:27:12.286 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-02-11 00:27:12.847 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-02-11 00:28:08.984 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-02-11 00:28:11.313 [warning] onWillSaveNotebookDocument-listener from extension {"value":"vscode.ipynb","_lower":"vscode.ipynb"} ignored due to invalid data
+2025-02-11 00:28:21.895 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-11 00:28:21.896 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-11 00:28:21.896 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-11 00:28:30.920 [warning] onWillSaveNotebookDocument-listener from extension {"value":"vscode.ipynb","_lower":"vscode.ipynb"} ignored due to invalid data
+2025-02-11 00:30:11.462 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-02-11 02:04:34.270 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-02-11 02:04:34.271 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-2ef76b8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-11 02:04:34.370 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at n.O [as value] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:949496)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at L.a (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:7307)
+	at L.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:87:21283)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-02-11 02:04:34.370 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at n.O [as value] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:949496)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at L.a (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:7307)
+	at L.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:87:21283)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-02-11 02:04:34.371 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:322969)
+	at /opt/code-server/lib/vscode/extensions/github/dist/extension.js:2:323928
+	at n.value (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:1055238)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at Object.p [as dispose] (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:968700)
+	at /opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:974724)
+	at s.<anonymous> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4814)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at s.<anonymous> (/opt/code-server/lib/vscode/extensions/git/dist/main.js:2:951753)
+	at s.dispose (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4949)
+	at g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:750)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10809)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at L.a (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:7307)
+	at L.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:87:21283)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-02-11 02:04:34.372 [error] Canceled: Canceled
+	at new k (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:34987)
+	at E.U (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6001)
+	at M.<computed>.L.charCodeAt.A.CharCode.DollarSign.M.<computed> (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3076)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207442)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at N.registerCommand.description (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206176)
+	at E.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:207981)
+	at E.g (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206966)
+	at E.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206866)
+	at Object.executeCommand (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23018)
+	at tr.set (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:304:163863)
+	at Xb.updateContextOfActiveNotebookKernel (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:373:11480)
+	at Xb.onDidKernelStatusChange (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:373:13070)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at my.<anonymous> (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:299:2825)
+	at s.B (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:740)
+	at s.C (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:810)
+	at s.fire (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1026)
+	at e (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:285:31911)
+	at YD.dispose (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:285:32034)
+	at /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:183:1926
+	at Array.map (<anonymous>)
+	at fg.dispose (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:183:1917)
+	at Object.Wfe (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:436:3379)
+	at Object.m (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.proxy.js:1:963)
+	at $.eb (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10613)
+	at /opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8656
+	at Array.map (<anonymous>)
+	at $ (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8644)
+	at $.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8918)
+	at g.terminate (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at s (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10642)
+	at L.a (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:7307)
+	at L.h (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:87:21283)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-02-11 02:04:34.404 [info] Extension host with pid 261 exiting with code 0

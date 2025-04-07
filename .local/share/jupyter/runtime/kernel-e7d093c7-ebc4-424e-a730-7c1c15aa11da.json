@@ -1,0 +1,13 @@
+{
+  "shell_port": 60383,
+  "iopub_port": 43351,
+  "stdin_port": 45031,
+  "control_port": 59067,
+  "hb_port": 52345,
+  "ip": "127.0.0.1",
+  "key": "86f1092f-4959711453c7c2caea58029e",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/problem_set_2_PRANAV_GUNDRALA.ipynb"
+}

@@ -1,0 +1,71 @@
+2025-02-11 05:35:03.904 [info] Experiment 'pythonSurveyNotification' is active
+2025-02-11 05:35:03.904 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-11 05:35:03.904 [info] Experiment 'pythonTestAdapter' is active
+2025-02-11 05:35:03.904 [warning] Dir "/home/jovyan/.pixi/envs" is not watchable (directory does not exist)
+2025-02-11 05:35:03.904 [info] Default formatter is set to null for workspace /home/jovyan
+2025-02-11 05:35:03.904 [info] Starting Environment refresh
+2025-02-11 05:35:03.904 [info] Searching for interpreters in posix paths locator
+2025-02-11 05:35:03.904 [info] Searching for pyenv environments
+2025-02-11 05:35:03.904 [info] Searching for conda environments
+2025-02-11 05:35:03.904 [info] Searching for global virtual environments
+2025-02-11 05:35:03.904 [info] Searching for custom virtual environments
+2025-02-11 05:35:03.904 [info] pyenv is not installed
+2025-02-11 05:35:03.904 [info] Finished searching for pyenv environments: 25 milliseconds
+2025-02-11 05:35:03.904 [info] Finished searching for custom virtual envs: 25 milliseconds
+2025-02-11 05:35:03.904 [info] > conda info --json
+2025-02-11 05:35:03.904 [info] > pixi --version
+2025-02-11 05:35:03.904 [info] > hatch env show --json
+2025-02-11 05:35:03.904 [info] cwd: .
+2025-02-11 05:35:03.904 [info] Python interpreter path: /bin/python3
+2025-02-11 05:35:03.904 [info] Finished searching for global virtual envs: 66 milliseconds
+2025-02-11 05:35:03.917 [info] Found: /bin/python3 --> /bin/python3.10
+2025-02-11 05:35:03.925 [info] Found: /bin/python3.10 --> /bin/python3.10
+2025-02-11 05:35:03.960 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2025-02-11 05:35:03.960 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2025-02-11 05:35:03.967 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-02-11 05:35:04.011 [info] Found: /opt/conda/envs/biol1435/bin/python --> /opt/conda/envs/biol1435/bin/python3.9
+2025-02-11 05:35:04.012 [info] Found: /opt/conda/envs/biol1435/bin/python3 --> /opt/conda/envs/biol1435/bin/python3.9
+2025-02-11 05:35:04.012 [info] Found: /opt/conda/envs/biol1435/bin/python3.9 --> /opt/conda/envs/biol1435/bin/python3.9
+2025-02-11 05:35:04.015 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2025-02-11 05:35:04.015 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2025-02-11 05:35:04.017 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2025-02-11 05:35:04.017 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2025-02-11 05:35:04.071 [info] > pyenv which python
+2025-02-11 05:35:04.071 [info] cwd: .
+2025-02-11 05:35:04.097 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-02-11 05:35:04.269 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-02-11 05:35:04.749 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 05:35:04.749 [info] shell: bash
+2025-02-11 05:35:04.749 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 05:35:04.749 [info] shell: bash
+2025-02-11 05:35:04.758 [info] > /opt/conda/envs/biol1435/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-02-11 05:35:04.768 [info] Finished searching for conda environments: 927 milliseconds
+2025-02-11 05:35:04.768 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-02-11 05:35:04.769 [info] Finished searching for interpreters in posix paths locator: 937 milliseconds
+2025-02-11 05:35:04.770 [info] Environments refresh paths discovered (event): 939 milliseconds
+2025-02-11 05:35:04.770 [info] Environments refresh paths discovered: 939 milliseconds
+2025-02-11 05:35:04.848 [info] Environments refresh finished (event): 1017 milliseconds
+2025-02-11 05:35:04.861 [info] Environment refresh took 1031 milliseconds
+2025-02-11 05:35:05.411 [info] Starting Jedi language server for jovyan.
+2025-02-11 06:10:56.223 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 06:10:56.223 [info] shell: bash
+2025-02-11 06:10:56.234 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 06:10:56.234 [info] shell: bash
+2025-02-11 10:57:34.150 [info] Experiment 'pythonSurveyNotification' is active
+2025-02-11 10:57:34.150 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-11 10:57:34.150 [info] Experiment 'pythonTestAdapter' is active
+2025-02-11 10:57:34.150 [warning] Dir "/home/jovyan/.pixi/envs" is not watchable (directory does not exist)
+2025-02-11 10:57:34.150 [info] Default formatter is set to null for workspace /home/jovyan
+2025-02-11 10:57:34.150 [info] > conda info --json
+2025-02-11 10:57:34.150 [info] Python interpreter path: /bin/python3
+2025-02-11 10:57:34.880 [info] > pyenv which python
+2025-02-11 10:57:34.880 [info] cwd: .
+2025-02-11 10:57:35.006 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 10:57:35.006 [info] shell: bash
+2025-02-11 10:57:35.006 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 10:57:35.006 [info] shell: bash
+2025-02-11 10:57:35.006 [info] > conda run -n biol1435 --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/printEnvVariables.py
+2025-02-11 10:57:35.006 [info] shell: bash
+2025-02-11 10:57:35.372 [info] > pixi --version
+2025-02-11 10:57:35.373 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-02-11 10:57:36.851 [info] Starting Jedi language server for jovyan.

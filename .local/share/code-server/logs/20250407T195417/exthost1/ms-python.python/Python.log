@@ -1,0 +1,46 @@
+2025-04-07 19:54:43.027 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-07 19:54:43.027 [warning] Dir "/home/jovyan/.pixi/envs" is not watchable (directory does not exist)
+2025-04-07 19:54:43.027 [info] Default formatter is set to null for workspace /home/jovyan
+2025-04-07 19:54:43.027 [info] > conda info --json
+2025-04-07 19:54:43.073 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-07 19:54:43.121 [info] Python interpreter path: /bin/python3
+2025-04-07 19:54:43.128 [info] > pyenv which python
+2025-04-07 19:54:43.128 [info] cwd: .
+2025-04-07 19:54:44.195 [info] Starting Jedi language server for jovyan.
+2025-04-07 19:54:44.214 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2025-04-07 19:54:44.224 [info] > pixi --version
+2025-04-07 19:54:44.226 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-07 19:54:50.259 [info] Shell integration status changed, can confirm it's working.
+2025-04-07 19:54:50.338 [info] Starting Environment refresh
+2025-04-07 19:54:50.338 [info] Searching for interpreters in posix paths locator
+2025-04-07 19:54:50.340 [info] Searching for pyenv environments
+2025-04-07 19:54:50.340 [info] Searching for conda environments
+2025-04-07 19:54:50.340 [info] Searching for global virtual environments
+2025-04-07 19:54:50.341 [info] Searching for custom virtual environments
+2025-04-07 19:54:50.346 [info] > hatch env show --json
+2025-04-07 19:54:50.346 [info] cwd: .
+2025-04-07 19:54:50.347 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-07 19:54:50.349 [info] pyenv is not installed
+2025-04-07 19:54:50.349 [info] Finished searching for pyenv environments: 10 milliseconds
+2025-04-07 19:54:50.350 [info] Finished searching for custom virtual envs: 10 milliseconds
+2025-04-07 19:54:50.351 [info] Finished searching for global virtual envs: 12 milliseconds
+2025-04-07 19:54:50.355 [info] Found: /bin/python3 --> /bin/python3.10
+2025-04-07 19:54:50.356 [info] Found: /bin/python3.10 --> /bin/python3.10
+2025-04-07 19:54:50.371 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2025-04-07 19:54:50.371 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2025-04-07 19:54:50.382 [info] Finished searching for conda environments: 39 milliseconds
+2025-04-07 19:54:50.383 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-07 19:54:50.391 [info] > /opt/conda/envs/biol1435/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-07 19:54:50.395 [info] Found: /opt/conda/envs/biol1435/bin/python --> /opt/conda/envs/biol1435/bin/python3.9
+2025-04-07 19:54:50.397 [info] Found: /opt/conda/envs/biol1435/bin/python3 --> /opt/conda/envs/biol1435/bin/python3.9
+2025-04-07 19:54:50.397 [info] Found: /opt/conda/envs/biol1435/bin/python3.9 --> /opt/conda/envs/biol1435/bin/python3.9
+2025-04-07 19:54:50.433 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2025-04-07 19:54:50.434 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2025-04-07 19:54:50.435 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2025-04-07 19:54:50.435 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2025-04-07 19:54:50.447 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-07 19:54:50.448 [info] Finished searching for interpreters in posix paths locator: 110 milliseconds
+2025-04-07 19:54:50.448 [info] Environments refresh paths discovered (event): 112 milliseconds
+2025-04-07 19:54:50.448 [info] Environments refresh paths discovered: 112 milliseconds
+2025-04-07 19:54:50.483 [info] Environments refresh finished (event): 147 milliseconds
+2025-04-07 19:54:50.494 [info] Environment refresh took 157 milliseconds

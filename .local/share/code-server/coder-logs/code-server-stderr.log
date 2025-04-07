@@ -1,0 +1,27 @@
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[02:15:59] [127.0.0.1][9e21c531][ExtensionHostConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[10:40:06] [127.0.0.1][62df3f24][ExtensionHostConnection] Unknown reconnection token (seen before).
+[14:02:32] [127.0.0.1][238957fa][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:00:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+[2025-04-07T20:23:19.127Z] warn  ENOENT: no such file or directory, open '/home/jovyan/.local/share/code-server/heartbeat'
+[2025-04-07T20:24:19.128Z] warn  ENOENT: no such file or directory, open '/home/jovyan/.local/share/code-server/heartbeat'
+[2025-04-07T20:25:19.129Z] warn  ENOENT: no such file or directory, open '/home/jovyan/.local/share/code-server/heartbeat'
+[2025-04-07T20:26:19.131Z] warn  ENOENT: no such file or directory, open '/home/jovyan/.local/share/code-server/heartbeat'
+[2025-04-07T20:27:19.132Z] warn  ENOENT: no such file or directory, open '/home/jovyan/.local/share/code-server/heartbeat'

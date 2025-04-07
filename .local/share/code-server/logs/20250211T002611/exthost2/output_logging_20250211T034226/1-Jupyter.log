@@ -1,0 +1,21 @@
+code-server (1.91.1, biol1435.jupyter.brown.edu, server-distro)
+Jupyter Extension Version: 2024.6.0.
+Python Extension Version: 2024.14.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Workspace folder /home/jovyan, Home = /home/jovyan
+03:42:29.294 [info] Starting Kernel (Python Path: /opt/conda/envs/biol1435/bin/python, Conda, 3.9.21) for '~/ps1-updated.ipynb' (disableUI=true)
+03:42:34.848 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+03:42:34.853 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-14137dMzGBCjq8lqy.json
+    > cwd: //home/~
+03:42:34.865 [info] Process Execution: /opt/conda/envs/biol1435/bin/python -m pip list
+03:42:35.636 [info] Kernel successfully started
+03:42:35.656 [info] Process Execution: /opt/conda/envs/biol1435/bin/python /home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/pythonFiles/printJupyterDataDir.py
+05:39:59.692 [info] Dispose Kernel '~/ps1-updated.ipynb' associated with '~/ps1-updated.ipynb'
+05:39:59.731 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-14137dMzGBCjq8lqy.json for pid 16006 [Canceled (FileSystemError): Canceled
+	at P.e (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:7234)
+	at Object.stat (/opt/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:153:3900)
+	at async Wc.delete (/home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.local/share/code-server/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

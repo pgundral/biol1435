@@ -1,0 +1,83 @@
+2025-04-07 20:03:38.801 [info] Log level: Info
+2025-04-07 20:03:38.801 [info] Validating found git in: "git"
+2025-04-07 20:03:38.801 [info] Using git "2.34.1" from "git"
+2025-04-07 20:03:38.801 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-07 20:03:38.801 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.801 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:03:38.801 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.801 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:03:38.801 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.801 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-07 20:03:38.801 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.801 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-07 20:03:38.801 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.807 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:03:38.807 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.849 [info] > git rev-parse --show-toplevel [38ms]
+2025-04-07 20:03:38.849 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.855 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:03:38.855 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.860 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:03:38.860 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.866 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:03:38.871 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:03:38.875 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:03:38.876 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan
+2025-04-07 20:03:38.880 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-07 20:03:38.885 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-07 20:03:38.898 [info] Open repository: /home/jovyan/python-class
+2025-04-07 20:03:38.912 [info] > git config --get commit.template [4ms]
+2025-04-07 20:03:38.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-07 20:03:38.916 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/refs/remotes/origin/master'
+2025-04-07 20:03:38.917 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-04-07 20:03:39.066 [info] > git status -z -uall [145ms]
+2025-04-07 20:03:39.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-04-07 20:03:39.086 [info] > git config --get commit.template [5ms]
+2025-04-07 20:03:39.090 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2025-04-07 20:03:39.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-04-07 20:03:39.097 [warning] ENOENT: no such file or directory, open '/home/jovyan/python-class/.git/refs/remotes/origin/master'
+2025-04-07 20:03:39.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2025-04-07 20:03:39.103 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-04-07 20:03:39.107 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2025-04-07 20:03:39.112 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [2ms]
+2025-04-07 20:03:39.117 [info] > git diff --name-status -z --diff-filter=ADMR 762dd9a012030dd2e9e795d570e1746c8a8b4944...refs/remotes/origin/master [2ms]
+2025-04-07 20:03:39.265 [info] > git status -z -uall [159ms]
+2025-04-07 20:03:39.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-07 20:03:39.276 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2025-04-07 20:03:39.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2025-04-07 20:03:39.488 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-07 20:09:31.393 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-07 20:09:31.393 [info] fatal: detected dubious ownership in repository at '/home/jovyan'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/jovyan

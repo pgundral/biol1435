@@ -1,0 +1,13 @@
+{
+  "shell_port": 56099,
+  "iopub_port": 56601,
+  "stdin_port": 56747,
+  "control_port": 43657,
+  "hb_port": 57701,
+  "ip": "127.0.0.1",
+  "key": "422b027c-25db408c47d03fbfdc45acfb",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "biol1435",
+  "jupyter_session": "/home/jovyan/in class/tree_sequence_tutorial.ipynb"
+}

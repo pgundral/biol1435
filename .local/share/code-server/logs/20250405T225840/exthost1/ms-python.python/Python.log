@@ -1,0 +1,46 @@
+2025-04-05 22:59:03.715 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-05 22:59:03.715 [warning] Dir "/home/jovyan/.pixi/envs" is not watchable (directory does not exist)
+2025-04-05 22:59:03.785 [info] Default formatter is set to null for workspace /home/jovyan
+2025-04-05 22:59:03.793 [info] Starting Environment refresh
+2025-04-05 22:59:03.794 [info] Searching for interpreters in posix paths locator
+2025-04-05 22:59:03.802 [info] Searching for pyenv environments
+2025-04-05 22:59:03.802 [info] Searching for conda environments
+2025-04-05 22:59:03.802 [info] Searching for global virtual environments
+2025-04-05 22:59:03.802 [info] Searching for custom virtual environments
+2025-04-05 22:59:03.828 [info] pyenv is not installed
+2025-04-05 22:59:03.828 [info] Finished searching for pyenv environments: 33 milliseconds
+2025-04-05 22:59:03.828 [info] Finished searching for custom virtual envs: 32 milliseconds
+2025-04-05 22:59:03.835 [info] > conda info --json
+2025-04-05 22:59:03.840 [info] > pixi --version
+2025-04-05 22:59:03.845 [info] > hatch env show --json
+2025-04-05 22:59:03.845 [info] cwd: .
+2025-04-05 22:59:03.853 [info] > pyenv which python
+2025-04-05 22:59:03.853 [info] cwd: .
+2025-04-05 22:59:03.856 [info] Finished searching for global virtual envs: 60 milliseconds
+2025-04-05 22:59:03.862 [info] Found: /bin/python3 --> /bin/python3.10
+2025-04-05 22:59:03.863 [info] Found: /bin/python3.10 --> /bin/python3.10
+2025-04-05 22:59:03.976 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2025-04-05 22:59:03.977 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2025-04-05 22:59:04.044 [info] Found: /opt/conda/envs/biol1435/bin/python --> /opt/conda/envs/biol1435/bin/python3.9
+2025-04-05 22:59:04.080 [info] Found: /opt/conda/envs/biol1435/bin/python3 --> /opt/conda/envs/biol1435/bin/python3.9
+2025-04-05 22:59:04.081 [info] Found: /opt/conda/envs/biol1435/bin/python3.9 --> /opt/conda/envs/biol1435/bin/python3.9
+2025-04-05 22:59:04.084 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2025-04-05 22:59:04.085 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2025-04-05 22:59:04.085 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2025-04-05 22:59:04.086 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2025-04-05 22:59:04.106 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-05 22:59:04.123 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-05 22:59:04.873 [info] > /opt/conda/envs/biol1435/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-05 22:59:04.888 [info] Finished searching for conda environments: 1090 milliseconds
+2025-04-05 22:59:04.888 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.14.1-universal/python_files/interpreterInfo.py
+2025-04-05 22:59:04.889 [info] Finished searching for interpreters in posix paths locator: 1097 milliseconds
+2025-04-05 22:59:04.890 [info] Environments refresh paths discovered (event): 1099 milliseconds
+2025-04-05 22:59:04.890 [info] Environments refresh paths discovered: 1099 milliseconds
+2025-04-05 22:59:04.932 [info] Environments refresh finished (event): 1140 milliseconds
+2025-04-05 22:59:04.942 [info] Environment refresh took 1151 milliseconds
+2025-04-05 22:59:04.943 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-05 22:59:04.948 [info] Python interpreter path: /bin/python3
+2025-04-05 22:59:05.114 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-05 22:59:05.865 [info] Starting Jedi language server for jovyan.
+2025-04-05 23:03:36.835 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/.local/share/code-server/User/settings.json
+2025-04-05 23:03:42.060 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/.local/share/code-server/User/settings.json
